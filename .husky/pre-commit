@@ -1,0 +1,3 @@
+forge fmt --check
+npx prettier --check .
+forge test

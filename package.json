@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "author": "Federico Luzzi <federico.luzzi@protonmail.com>",
+    "license": "GPL-3.0-or-later",
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.3",
+        "@commitlint/config-conventional": "^17.0.3",
+        "husky": "^8.0.1",
+        "prettier": "^2.7.1",
+        "solhint": "^3.3.7"
+    }
+}
