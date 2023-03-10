@@ -5,11 +5,7 @@ import "forge-std/Script.sol";
 import "src/DrippableERC20Token.sol";
 
 contract DeployStandalone is Script {
-    function run(
-        string calldata _name,
-        string calldata _symbol,
-        uint8 _decimals
-    ) public {
+    function run(string calldata _name, string calldata _symbol, uint8 _decimals) public {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
 
         DrippableERC20Token _token = new DrippableERC20Token(
