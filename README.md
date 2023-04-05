@@ -1,7 +1,11 @@
 # Carrot v1 contracts
 
 This repo contains a drippable ERC20 token implementation plus a deployment
-script to easily get test ERC20 tokens in any EVM compatible chains.
+script to easily get test ERC20 tokens in any EVM compatible chain.
+
+The drip function automatically performs any decimal scaling needed so it's very
+simple and easy to drip tokens without having to do manual conversions
+beforehand.
 
 ## Existing deployments
 
@@ -12,8 +16,8 @@ script to easily get test ERC20 tokens in any EVM compatible chains.
 | [CCC](contracts/YeenusToken.sol) |        0 | [0x6fFEbe71762EA02eA490491fa6cab90b2f744787](https://sepolia.etherscan.io/address/0x6fFEbe71762EA02eA490491fa6cab90b2f744787) |
 
 Don't see a deployment you need? Deploying the tokens on any given network is
-dead simple: just follow the instructions below and open a PR to add the
-deployment to the table above.
+dead simple: just follow the instructions below and open a PR to add your
+deployment(s) to the table above.
 
 ## DIY deployment
 
@@ -39,7 +43,7 @@ export RPC_ENDPOINT=""
 attention).
 
 Once you have the `.env` file ready you can finally execute the following
-command to initiate the deployment of the 3 default test tokens:
+command to initiate the deployment of the 3 default test tokens (AAA, BBB, CCC):
 
 ```
 forge script --rpc-url $RPC_ENDPOINT --broadcast --verify Deploy
