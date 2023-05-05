@@ -53,7 +53,7 @@ If you instead want to deploy standalone test tokens with custom name, symbol or
 decimals, simply execute the following command:
 
 ```
-forge script --rpc-url $RPC_ENDPOINT --broadcast --verify --sig 'run(string,string,uint8)' Deploy DeployStandalone <TOKEN_NAME> <TOKEN_SYMBOL> <TOKEN_DECIMALS>
+forge script --rpc-url $RPC_ENDPOINT --broadcast --verify --sig 'run(string,string,uint8)' DeployStandalone <TOKEN_NAME> <TOKEN_SYMBOL> <TOKEN_DECIMALS>
 ```
 
 replacing `<TOKEN_NAME>`, `<TOKEN_SYMBOL>` and `<TOKEN_DECIMALS>` with the
