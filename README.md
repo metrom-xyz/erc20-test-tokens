@@ -9,11 +9,11 @@ beforehand.
 
 ## Existing deployments
 
-| Symbol                           | Decimals | [Sepolia](https://sepolia.dev/)                                                                                               |
-| :------------------------------- | -------: | :---------------------------------------------------------------------------------------------------------------------------- |
-| [AAA](contracts/WeenusToken.sol) |       18 | [0x279E7154B3ce368045929Dd8e51c15c7f74351bf](https://sepolia.etherscan.io/address/0x279E7154B3ce368045929Dd8e51c15c7f74351bf) |
-| [BBB](contracts/XeenusToken.sol) |        6 | [0x31F6967490204bbAE0763eE26709686b4477477f](https://sepolia.etherscan.io/address/0x31F6967490204bbAE0763eE26709686b4477477f) |
-| [CCC](contracts/YeenusToken.sol) |        0 | [0x6fFEbe71762EA02eA490491fa6cab90b2f744787](https://sepolia.etherscan.io/address/0x6fFEbe71762EA02eA490491fa6cab90b2f744787) |
+| Symbol | Decimals | [Sepolia](https://sepolia.dev/)                                                                                               |
+| :----- | -------: | :---------------------------------------------------------------------------------------------------------------------------- |
+| [AAA]  |       18 | [0x279E7154B3ce368045929Dd8e51c15c7f74351bf](https://sepolia.etherscan.io/address/0x279E7154B3ce368045929Dd8e51c15c7f74351bf) |
+| [BBB]  |        6 | [0x31F6967490204bbAE0763eE26709686b4477477f](https://sepolia.etherscan.io/address/0x31F6967490204bbAE0763eE26709686b4477477f) |
+| [CCC]  |        0 | [0x6fFEbe71762EA02eA490491fa6cab90b2f744787](https://sepolia.etherscan.io/address/0x6fFEbe71762EA02eA490491fa6cab90b2f744787) |
 
 Don't see a deployment you need? Deploying the tokens on any given network is
 dead simple: just follow the instructions below and open a PR to add your
