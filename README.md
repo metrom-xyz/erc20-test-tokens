@@ -11,9 +11,9 @@ beforehand.
 
 | Symbol | Decimals | [Sepolia](https://sepolia.dev/)                                                                                               | [Scroll alpha testnet](https://guide.scroll.io/)                                                                              |
 | :----- | -------: | :---------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| AAA    |       18 | [0x279E7154B3ce368045929Dd8e51c15c7f74351bf](https://sepolia.etherscan.io/address/0x279E7154B3ce368045929Dd8e51c15c7f74351bf) | [0xB6044f769f519a634A5150645484b18d0C031ae8](https://blockscout.scroll.io/address/0xB6044f769f519a634A5150645484b18d0C031ae8) |
-| BBB    |        6 | [0x31F6967490204bbAE0763eE26709686b4477477f](https://sepolia.etherscan.io/address/0x31F6967490204bbAE0763eE26709686b4477477f) | [0xe37AA274d1bb3815b63cd13064dE443423F74316](https://blockscout.scroll.io/address/0xe37AA274d1bb3815b63cd13064dE443423F74316) |
-| CCC    |        0 | [0x6fFEbe71762EA02eA490491fa6cab90b2f744787](https://sepolia.etherscan.io/address/0x6fFEbe71762EA02eA490491fa6cab90b2f744787) | [0xEc0B101CDC03ae65F78cF5477F2b9e0FaB9f2b28](https://blockscout.scroll.io/address/0xEc0B101CDC03ae65F78cF5477F2b9e0FaB9f2b28) |
+| AAA    |       18 | [0x279E7154B3ce368045929Dd8e51c15c7f74351bf](https://sepolia.etherscan.io/address/0x279E7154B3ce368045929Dd8e51c15c7f74351bf) | [0x7405769BEfAc397563D976470bdb1B790d26a025](https://blockscout.scroll.io/address/0x7405769BEfAc397563D976470bdb1B790d26a025) |
+| BBB    |        6 | [0x31F6967490204bbAE0763eE26709686b4477477f](https://sepolia.etherscan.io/address/0x31F6967490204bbAE0763eE26709686b4477477f) | [0xcA9b84f307c7E7825C6e9B1da732f0a7e953889D](https://blockscout.scroll.io/address/0xcA9b84f307c7E7825C6e9B1da732f0a7e953889D) |
+| CCC    |        0 | [0x6fFEbe71762EA02eA490491fa6cab90b2f744787](https://sepolia.etherscan.io/address/0x6fFEbe71762EA02eA490491fa6cab90b2f744787) | [0xb4F8FB8cC48A9Eb8d8E0A530C9775eD06728BaDd](https://blockscout.scroll.io/address/0xb4F8FB8cC48A9Eb8d8E0A530C9775eD06728BaDd) |
 
 Don't see a deployment you need? Deploying the tokens on any given network is
 dead simple: just follow the instructions below and open a PR to add your
